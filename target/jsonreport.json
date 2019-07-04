@@ -1,0 +1,149 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Login with valid credentials and search for a product",
+        "description": "",
+        "id": "searching-product;login-with-valid-credentials-and-search-for-a-product",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 10743285800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user open login page in TestMee application",
+            "match": {
+              "location": "cartcase4.user_open_login_page_in_TestMee_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 153365400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "userr enter un as \"shwesam\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"shwesam\"",
+                  "offset": 18
+                }
+              ],
+              "location": "cartcase4.userr_enter_un_as(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 167235400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "userr enter pd  as \"password123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"password123\"",
+                  "offset": 19
+                }
+              ],
+              "location": "cartcase4.userr_enter_pd_as(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7025256900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "click signinn button",
+            "match": {
+              "location": "cartcase4.click_signinn_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 582581301,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "userr searche for headphones in sb as \"head\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"head\"",
+                  "offset": 38
+                }
+              ],
+              "location": "cartcase4.userr_searche_for_headphones_in_sb_as(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 29400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "userr select headphones from suggestion list",
+            "match": {
+              "location": "cartcase4.userr_select_headphones_from_suggestion_list()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 333781399,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "userr click on find button",
+            "match": {
+              "location": "cartcase4.userr_click_on_find_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 46781001,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "click on cart button",
+            "match": {
+              "location": "cartcase4.click_on_cart_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 29401,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "verify cart is empty or not",
+            "match": {
+              "location": "cartcase4.verify_cart_is_empty_or_not()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Searching product",
+    "description": "Description: Registered user can login into application using valid username and valid password",
+    "id": "searching-product",
+    "keyword": "Feature",
+    "uri": "src/main/resources/casecucumber4.Feature",
+    "tags": []
+  }
+]
